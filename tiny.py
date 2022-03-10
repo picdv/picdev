@@ -21,9 +21,9 @@ online_key_list_iter = iter(online_key_list)
 online_key = next(online_key_list_iter)
 
 # 需要压缩图片的路径
-fromPath = "/home/runner/work/picdev/imgs/ani"  # source dir path
+fromPath = "imgs/ani"  # source dir path
 # 压缩后下载的图片路径
-toPath = "/home/runner/work/picdev/imgs/web-ani"  # dest dir path
+toPath = "imgs/web-ani"  # dest dir path
 
 
 tinifyAPi = tinify.tinify
