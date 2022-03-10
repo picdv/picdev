@@ -9,8 +9,8 @@
 name: Tinypng Compress
 
 on:
-  release:
-    types: [starred]
+  watch:
+    types: [started]
 
 jobs:
   tinypng:
