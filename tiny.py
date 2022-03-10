@@ -12,8 +12,8 @@ import time
 
 # 压缩图片的key
 online_key_list = [
-    "vp7BGwyzTVFVDww9tPLH8Zj1JDkDnn4D",
-    "mj7N80xJPVqdQjQWFZG8jnfmy25lnZ5Y",  # 可以继续添加  防止一个key不够
+    "GyppFgD7N1673KDgqDkXvZnjt2cvpBBm",
+    "bqxgzz2sCkP7jLLnhrbLHfr0llmTXpr7",  # 可以继续添加  防止一个key不够
 ]
 
 # 获取key
@@ -21,9 +21,9 @@ online_key_list_iter = iter(online_key_list)
 online_key = next(online_key_list_iter)
 
 # 需要压缩图片的路径
-fromPath = "/home/runner/work/"  # source dir path
+fromPath = "/home/runner/work/picdev/imgs/ani"  # source dir path
 # 压缩后下载的图片路径
-toPath = "F:\\视频\\壁纸\\res"  # dest dir path
+toPath = "/home/runner/work/picdev/imgs/web-ani"  # dest dir path
 
 
 tinifyAPi = tinify.tinify
