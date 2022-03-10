@@ -31,7 +31,7 @@ jobs:
         pip install tinify
     - name: start compression
       run: |
-        cd picdev
+        cd /home/runner/work/picdev/picdev
         python tiny.py
     - name: Push to Repo
       uses: stefanzweifel/git-auto-commit-action@v4
