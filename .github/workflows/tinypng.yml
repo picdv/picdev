@@ -6,11 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Package
+name: Tinypng Compress
 
 on:
   release:
-    types: [started]
+    types: [starred]
 
 jobs:
   tinypng:
