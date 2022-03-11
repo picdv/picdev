@@ -56,7 +56,7 @@ def compress_online(sourcefile, outputfile):
         # 如果key值无效 换一个key继续压缩
         print("key值无效 换一个继续。。。")
         online_key = next(online_key_list_iter)
-        compress_online(sourcefile, outputfile, name)  # 递归方法 继续读取
+        compress_online(sourcefile, outputfile)  # 递归方法 继续读取
         rs = True
 
     except tinify.ClientError:
@@ -75,7 +75,7 @@ def compress_online(sourcefile, outputfile):
         # A network connection error occurred.
         print("网络故障。。。休息1秒继续")
         time.sleep(1)
-        compress_online(sourcefile, outputfile, name)  # 递归方法 继续读取
+        compress_online(sourcefile, outputfile)  # 递归方法 继续读取
         rs = True
         pass
     except Exception:
