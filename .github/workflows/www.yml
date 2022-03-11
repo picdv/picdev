@@ -10,6 +10,7 @@
 name: Tinypng Compress for www
 
 on:
+  workflow_dispatch:
   watch:
     types: [started]
 
