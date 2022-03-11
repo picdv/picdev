@@ -34,7 +34,6 @@ jobs:
         cd /home/runner/work/picdev/picdev
         rm -f imgs/web-ani/*
         python tiny.py
-        python tinyw.py
     - name: Delect Rawfile
       run: |
         cd /home/runner/work/picdev/picdev
