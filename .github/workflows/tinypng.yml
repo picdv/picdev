@@ -33,12 +33,11 @@ jobs:
     - name: start compression
       run: |
         cd /home/runner/work/picdev/picdev
-        rm -f imgs/web-ani/*
         python tiny.py
     - name: Delect Rawfile
       run: |
         cd /home/runner/work/picdev/picdev
-        rm -rf imgs/ani
+        rm -f imgs/ani/*
     - name: Push to Repo
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
