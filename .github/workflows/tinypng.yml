@@ -5,6 +5,7 @@
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
+# rm -rf img
 
 name: Tinypng Compress
 
@@ -38,7 +39,6 @@ jobs:
       run: |
         cd /home/runner/work/picdev/picdev
         rm -rf imgs/ani
-        rm -rf img
     - name: Push to Repo
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
