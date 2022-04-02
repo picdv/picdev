@@ -38,7 +38,7 @@ jobs:
     - name: Delect Rawfile
       run: |
         cd /home/runner/work/picdev/picdev
-        rm -f img/*
+        rm -f imgs/www/*
     - name: Push to Repo
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
