@@ -30,7 +30,7 @@ online_key_list_iter = iter(online_key_list)
 online_key = next(online_key_list_iter)
 
 # 需要压缩图片的路径
-fromPath = "img"  # source dir path
+fromPath = "imgs/wwww"  # source dir path
 # 压缩后下载的图片路径
 toPath = "imgs/web-wwww"  # dest dir path
 
