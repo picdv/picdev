@@ -34,7 +34,7 @@ jobs:
     - name: start compression
       run: |
         cd /home/runner/work/picdev/picdev
-        python tinyw.py
+        python3 tinyw.py
     - name: Delect Rawfile
       run: |
         cd /home/runner/work/picdev/picdev
