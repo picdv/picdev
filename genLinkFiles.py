@@ -8,7 +8,7 @@ def genLink(path, linkFilePath):
     linkFile = open(linkFilePath, "w")
     for name in imgNames:  # /*输出序号，这里是从1输出到20*/
         linkFile.write(f"https://raw.ldst.gq/picdv/picdev/main/{path}/{name}\n")
-        linkFile.close()
+    linkFile.close()
 
 
 Path1 = "imgs/web-www"
